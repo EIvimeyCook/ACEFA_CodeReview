@@ -7,7 +7,7 @@
 ACEFA_Code_Review()
 }
 \value{
-A .rtf of the ACEFA Forecasting Model Code Review
+A .html of the ACEFA Forecasting Model Code Review
 }
 \description{
 The ACEFA Forecasting Model Code Reviewing app allows code reviewers to review code bases

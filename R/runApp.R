@@ -1,6 +1,6 @@
 #' @title Run the ACEFA Forecasting Model Code Review app
 #' @description The ACEFA Forecasting Model Code Reviewing app allows code reviewers to review code bases
-#' @return A .rtf of the ACEFA Forecasting Model Code Review
+#' @return A .html of the ACEFA Forecasting Model Code Review
 #' @export
 
 ACEFA_Code_Review <- function() {
