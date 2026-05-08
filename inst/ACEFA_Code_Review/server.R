@@ -22,6 +22,20 @@ markdown_to_html <- function(text) {
 }
 
 server <- function(input, output, session) {
+  
+  observe({                     
+    shinyjs::toggleState(
+      id        = "download_CodeMd",
+      condition = all(!is.null(input$check_1),
+                      !is.null(input$check_2),
+                      !is.null(input$check_3),
+                      !is.null(input$check_4),
+                      !is.null(input$check_5))
+    )
+  })
+  
+  
+  
   observeEvent(input$download_CodeMd, {
     card_data <- lapply(names(card_labels), function(id) {
       response <- input[[paste0("check_", id)]]
