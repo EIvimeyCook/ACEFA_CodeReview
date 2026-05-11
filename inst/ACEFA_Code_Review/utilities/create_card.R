@@ -63,7 +63,7 @@ create_card_specific <- function(id, label) {
       label = NULL,
       placeholder = "Comment",
       width = "1000px",
-      height = "50px"
+      height = "200px"
     )
   )
 }
@@ -91,7 +91,7 @@ create_card_specific2 <- function(id, label) {
       label = NULL,
       placeholder = "Comment",
       width = "1000px",
-      height = "50px"
+      height = "200px"
     )
   )
 }
