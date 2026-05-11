@@ -193,38 +193,4 @@ server <- function(input, output, session) {
     })
     shiny::removeModal()
   })
-  
-  instruct_modal <- shiny::modalDialog(
-    easyClose = FALSE,
-    footer = NULL,
-    size = "l",
-    fade = TRUE,
-    shiny::div(
-      style = "display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;",
-      shiny::tags$img(src = "ACEFA.png", height = "88px", width = "120px", style = "margin-bottom: 20px;"),
-      br(),
-      "Step 1: Log in to the One Drive Kate created. Get local version of code and test data. Examine author instruction and attempt to install.",
-      br(),
-      br(),
-      "Step 2: Check out the methods description in the One Drive. To the extent possible, look at the code and check", 
-      br(),
-      br(),
-      "Step 3: Use the instructions in the code and test data in the One Drive and attempt to run the code from start to finish.",
-      br(),
-      br(),
-      "Step 4: Review the output against teh demo output, compare the parquet against the image",
-      actionButton("submit_instruct_modal", "Submit", class = "btn btn-success", style = "margin-top: 20px;")
-    )
-  )
-
-  
-  
-  
-  shiny::observeEvent(input$instruct_code, {
-    shiny::showModal(instruct_modal)
-  })
-  
-  shiny::observeEvent(input$submit_instruct_modal, {
-    shiny::removeModal()
-  })
 }
