@@ -28,11 +28,11 @@ create_card <- function(id, label) {
 
 card_labels <- list(
   
-  "1" = "How well does the code base allow a reviewer to understand the code? e.g. Is there a metadata file or associated readme? Is it organised? Are the inputs in a clearly marked location? It is clear which data files are used? Are outputs clearly saved somewhere? Is there a clear roadmap to recreate the analysis?",
+  "1" = "How well does the code base allow a reviewer to understand the code? E.g. Is there a metadata file or associated readme? Is it organised? Are the inputs in a clearly marked location? It is clear which data files are used? Are outputs clearly saved somewhere? Is there a clear roadmap to recreate the analysis?",
   
-  "2" = "How consistent does the code appear with the methods as described in the writeup? Are any fixed values in the code referenced clearly in the methods description? Are there aspects of the code that would have been relevant to the methods writeup but were not included? (Eg. Prior specification? Fixed parameter values? Data modification procedures?)",
+  "2" = "How consistent does the code appear with the methods as described in the writeup? Are any fixed values in the code referenced clearly in the methods description? Are there aspects of the code that would have been relevant to the methods writeup but were not included? (E.g. Prior specification? Fixed parameter values? Data modification procedures?)",
   
-  "3" = "Is it clear what needs to be installed for this code to be run? Is it clear how to run it? To extent possible, run the code and comment on any issues encountered. ",
+  "3" = "Is it clear what needs to be installed for this code to be run? Is it clear how to run it? Run the code and comment on any issues encountered. ",
   
   "4" = "Are you able to reproduce results consistent with the outputs provided?",
   
