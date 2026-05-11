@@ -21,7 +21,7 @@ create_card <- function(id, label) {
       label = NULL,
       placeholder = "Comment",
       width = "1000px",
-      height = "50px"
+      height = "200px"
     )
   )
 }
@@ -52,6 +52,34 @@ create_card_specific <- function(id, label) {
       inputId = paste0("check_", id),
       label = NULL,
       choices = c("1 (Poor)", "2", "3", "4", "5 (Excellent)", "Unable to assess"),
+      justified = TRUE,
+      width = "800px",
+      individual = TRUE,
+      selected = character(0),
+      size = "normal"
+    ),
+    textAreaInput(
+      inputId = paste0("item_", id, "_comment"),
+      label = NULL,
+      placeholder = "Comment",
+      width = "1000px",
+      height = "50px"
+    )
+  )
+}
+
+create_card_specific2 <- function(id, label) {
+  label_html <- gsub("\\*\\[(.+?)\\]\\((.+?)\\)\\*", '<a href="\\2" target="_blank">\\1</a>', label)
+  
+  div(
+    id = id,
+    HTML(paste0("<strong>", label_html, "</strong>")),
+    br(),
+    br(),
+    shinyWidgets::radioGroupButtons(
+      inputId = paste0("check_", id),
+      label = NULL,
+      choices = c("Yes", "No", "Unable to assess"),
       justified = TRUE,
       width = "800px",
       individual = TRUE,

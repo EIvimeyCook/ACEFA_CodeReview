@@ -77,7 +77,7 @@ ui <- function() {
       br(),
       h3("Reproducibility")
       ),
-      create_card_specific("4", "Are you able to reproduce results consistent with the outputs provided?"),
+      create_card_specific2("4", "Are you able to reproduce results consistent with the outputs provided?"),
       hr(),
       div(id = "stage5_title",
       h5("Step 5. Reflect on the code base as a whole.") , 
