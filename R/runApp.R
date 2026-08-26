@@ -7,6 +7,6 @@ ACEFA_Code_Review <- function() {
     shiny_env <- 1
     envir <- as.environment(shiny_env)
 
-    appDir <- system.file("ACEFA_Code_Review", package = "ACEFA_Code_Review")
+    appDir <- system.file("ACEFA_Code_Review", package = "ACEFACodeReview")
     shiny::runApp(appDir, display.mode = "normal")
   }
