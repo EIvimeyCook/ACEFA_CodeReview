@@ -85,6 +85,14 @@ ecology and evolutionary biology rather than an ACEFA-specific one, use that.
 Edward R. Ivimey-Cook — <e.ivimeycook@gmail.com> —
 [ORCID 0000-0003-4910-0443](https://orcid.org/0000-0003-4910-0443)
 
+## Citation
+
+> Ivimey-Cook, E. R. (2026). *ACEFA Forecasting Model Code Review*.
+> <https://github.com/EIvimeyCook/ACEFA_CodeReview>
+
+A machine-readable [`CITATION.cff`](CITATION.cff) is included, so GitHub's
+"Cite this repository" button gives formatted APA and BibTeX.
+
 ## License
 
 Released under the [MIT License](LICENSE.md).
