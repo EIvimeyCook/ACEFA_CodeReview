@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Ivimey-Cook"
+    given-names: "Edward R."
+    orcid: "https://orcid.org/0000-0003-4910-0443"
+title: "ACEFA Forecasting Model Code Review"
+abstract: "A Shiny application guiding reviewers through a structured five-step assessment of ACEFA epidemiological forecasting model code bases, producing an HTML report for the code authors."
+version: 0.0.0.9000
+url: "https://github.com/EIvimeyCook/ACEFA_CodeReview"
+repository-code: "https://github.com/EIvimeyCook/ACEFA_CodeReview"
+license: MIT
+keywords:
+  - "code review"
+  - "reproducibility"
+  - "forecasting"
+  - "epidemiology"
+  - "shiny"
+  - "R"

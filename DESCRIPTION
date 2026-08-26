@@ -1,10 +1,12 @@
-Package: ACEFA Forecasting Model Code Review
+Package: ACEFACodeReview
 Title: ACEFA Forecasting Model Code Review
 Version: 0.0.0.9000
-Authors@R: c(
-    person("Ed", "Ivimey-Cook", , "e.ivimeycook@gmail.com", role = c("aut", "cre")),
-  )
-Description: Allows code reviewers to review ACEFA Forecasting Models
+Authors@R: 
+    person("Ed", "Ivimey-Cook", , "e.ivimeycook@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-4910-0443"))
+Description: Provides a Shiny application that guides reviewers through a
+    structured five-step assessment of ACEFA forecasting model code bases and
+    exports an HTML report for the code authors.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -14,5 +16,4 @@ Imports:
     shiny,
     shinyalert,
     shinyjs,
-    shinyWidgets,
-    tippy
+    shinyWidgets
