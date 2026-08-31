@@ -33,8 +33,6 @@ installation and no server access.
 - **Self-contained HTML report** that opens in a new tab with a one-click
   download.
 - **Runs entirely in the browser.** No installation, no server.
-- **In-browser editor** at `/edit/`, with a live viewer and R terminal, for
-  reading or prototyping changes to the review questions without cloning.
 
 ## Usage
 
@@ -70,8 +68,7 @@ Please file issues and feature requests at
 <https://github.com/EIvimeyCook/ACEFA_CodeReview/issues>.
 
 If you are proposing a change to the **wording of a review question**, open an
-issue first — the questions are a shared instrument, and changing them mid-round
-makes reports non-comparable.
+issue first.
 
 ## Related work
 
